@@ -18,6 +18,34 @@ function HomeSection() {
                     <Password/>
                 </Grid>
 
+                <Grid item xs={12} md={4} spacing={2}>
+                    <Password/>
+                </Grid>
+
+                <Grid item xs={12} md={4} spacing={2}>
+                    <Password/>
+                </Grid>
+
+                <Grid item xs={12} md={4} spacing={2}>
+                    <Password/>
+                </Grid>
+
+                <Grid item xs={12} md={4} spacing={2}>
+                    <Password/>
+                </Grid>
+
+                <Grid item xs={12} md={4} spacing={2}>
+                    <Password/>
+                </Grid>
+
+                <Grid item xs={12} md={4} spacing={2}>
+                    <Password/>
+                </Grid>
+
+                <Grid item xs={12} md={4} spacing={2}>
+                    <Password/>
+                </Grid>
+
             </Grid>
         </Card>);
 }
