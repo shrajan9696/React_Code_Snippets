@@ -1,50 +1,21 @@
 import React from 'react';
 import {Card, Grid} from "@mui/material";
 import Password from "../password/password.jsx";
+import ProgressBar from "../progress-bar/progress.jsx";
 
 function HomeSection() {
     return (<Card>
-            <Grid container spacing={3} sx={{p:3}}>
+            <Grid container spacing={4} sx={{p:3}}>
 
                 <Grid item xs={12} md={4} spacing={2}>
                     <Password/>
                 </Grid>
 
                 <Grid item xs={12} md={4} spacing={2}>
-                    <Password/>
+                    <ProgressBar/>
                 </Grid>
 
-                <Grid item xs={12} md={4} spacing={2}>
-                    <Password/>
-                </Grid>
 
-                <Grid item xs={12} md={4} spacing={2}>
-                    <Password/>
-                </Grid>
-
-                <Grid item xs={12} md={4} spacing={2}>
-                    <Password/>
-                </Grid>
-
-                <Grid item xs={12} md={4} spacing={2}>
-                    <Password/>
-                </Grid>
-
-                <Grid item xs={12} md={4} spacing={2}>
-                    <Password/>
-                </Grid>
-
-                <Grid item xs={12} md={4} spacing={2}>
-                    <Password/>
-                </Grid>
-
-                <Grid item xs={12} md={4} spacing={2}>
-                    <Password/>
-                </Grid>
-
-                <Grid item xs={12} md={4} spacing={2}>
-                    <Password/>
-                </Grid>
 
             </Grid>
         </Card>);
