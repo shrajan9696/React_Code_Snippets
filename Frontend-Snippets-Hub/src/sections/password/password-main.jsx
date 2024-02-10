@@ -32,9 +32,9 @@ const [isPassword,setIsPassword] = React.useState(false);
             <Card>
                 <CardHeader title="Solution"/>
                 <CardContent>
-                    <input type={isPassword ? "password" : "text"}/>
+                    <input type={isPassword ? "password" : "text"} style={{width:"80%", height:"30px", border:"2px solid black", borderRadius:"10px"}}/>
                     <Icon
-                        icon={isPassword ? "bi:eye-slash" : "bi:eye"} onClick={() => setIsPassword(!password)}
+                        icon={isPassword ? "bi:eye-slash" : "bi:eye"} onClick={() => setIsPassword(!isPassword)}
                         style={{position: "relative", right: "20px", top: "5px"}}
                     />
 

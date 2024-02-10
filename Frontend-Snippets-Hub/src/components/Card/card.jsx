@@ -6,7 +6,7 @@ function CardComponent(props) {
     return (
         <Card>
             <CardMedia
-                sx={{ height: 180 }}
+                sx={{ height: 180}}
                 image={props.image}
                 title="green iguana"
             />
