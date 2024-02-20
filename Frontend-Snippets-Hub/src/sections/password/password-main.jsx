@@ -24,7 +24,7 @@ const [isPassword,setIsPassword] = React.useState(false);
                 <CardHeader title="Problem Statement"/>
                 <CardContent>
                     <Typography variant="body1" component="div">
-                        Create a password input field with two toggle icons to show and hide the password.
+                        create a password input field with two toggle icons to show and hide the password.
                     </Typography>
                 </CardContent>
             </Card>
