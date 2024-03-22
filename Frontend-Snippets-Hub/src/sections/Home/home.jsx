@@ -2,6 +2,7 @@ import React from 'react';
 import {Card, Grid} from "@mui/material";
 import Password from "../password/password.jsx";
 import ProgressBar from "../progress-bar/progress.jsx";
+import Pagination from "../pagination/pagination.jsx";
 
 function HomeSection() {
     return (<Card>
@@ -15,6 +16,10 @@ function HomeSection() {
                     <ProgressBar/>
                 </Grid>
 
+
+                <Grid item xs={12} md={4} spacing={2}>
+                    <Pagination/>
+                </Grid>
 
 
             </Grid>
