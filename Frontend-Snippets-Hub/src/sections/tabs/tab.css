@@ -1,0 +1,29 @@
+.main{
+    width: 51vw;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.tab{
+    display: flex;
+}
+
+.tab-item{
+    padding: 10px;
+    width: 30%;
+    border: 2px solid rgb(128, 128, 128);
+    cursor: pointer;
+}
+
+.active-tab{
+    background-color: gray;
+    border: 2px solid black;
+    border-bottom: 0px;
+}
+
+.content{
+   background-color: lightgray;
+    padding: 5px;
+
+}

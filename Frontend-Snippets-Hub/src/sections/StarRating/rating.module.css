@@ -1,0 +1,13 @@
+.main{
+    width: 50vw;
+    padding: 10px
+}
+
+.star{
+    display: flex;
+    cursor: pointer;
+}
+
+.filled{
+    background-color: #535bf2;
+}

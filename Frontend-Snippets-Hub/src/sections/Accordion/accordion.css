@@ -1,0 +1,30 @@
+.outer{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+.inner{
+    margin: 10px;
+    background-color: lightcyan;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.question{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+    color: red;
+}
