@@ -6,6 +6,7 @@ import PaginationMain from "./sections/pagination/pagination-main.jsx";
 import TabsMain from "./sections/tabs/tabs-main.jsx";
 import AccordionMain from "./sections/Accordion/accordion-main.jsx";
 import RatingMain from "./sections/StarRating/rating-main.jsx";
+import OTPMain from "./sections/OTP/otp-main.jsx";
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
            <Route path="/tab" element={<TabsMain/>}/>
            <Route path="/accordion" element={<AccordionMain/>}/>
            <Route path="/rating" element={<RatingMain/>}/>
+           <Route path="/otp" element={<OTPMain/>}/>
        </Routes>
    </BrowserRouter>
   )

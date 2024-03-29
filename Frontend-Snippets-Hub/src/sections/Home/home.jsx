@@ -6,6 +6,7 @@ import Pagination from "../pagination/pagination.jsx";
 import Tabs from "../tabs/tabs.jsx";
 import Accordion from "../Accordion/accordion.jsx";
 import StarRating from "../StarRating/rating.jsx";
+import OTP from "../OTP/otp.jsx";
 
 function HomeSection() {
     return (<Card>
@@ -34,6 +35,11 @@ function HomeSection() {
 
                 <Grid item xs={12} md={4} spacing={2}>
                     <StarRating/>
+                </Grid>
+
+
+                <Grid item xs={12} md={4} spacing={2}>
+                    <OTP/>
                 </Grid>
 
 

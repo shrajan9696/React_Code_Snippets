@@ -1,0 +1,39 @@
+.otp{
+    width: 5vw;
+    margin: 15px;
+    height: 40px;
+    font-size: x-large;
+    border: 3px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    align-items: center;
+
+}
+
+input:focus{
+   outline-color: #535bf2;
+}
+
+.miss{
+    outline-color: red;
+    border: 3px solid red;
+}
+
+.sub-butt {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgba(44, 82, 218, 0.76);
+    font-weight: bold;
+    font-size: x-large;
+    box-shadow: #6353f2;
+}
