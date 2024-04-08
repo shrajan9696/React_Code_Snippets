@@ -51,7 +51,7 @@ function OTPMain(props) {
                 );
             })}
         </div>
-        <button onClick={submitHandler} className={classes.sub}>Submit</button>
+        <button onClick={submitHandler} className={classes.sub-butt}>Submit</button>
     </div>);
 }
 `

@@ -1,0 +1,27 @@
+
+
+.outDiv{
+    width: 100%;
+    height:100vh;
+    margin-bottom: 20px;
+}
+.banner{
+    width: 100%;
+    height:100%;
+    /*z-index: -1;*/
+    /*opacity: 70%;*/
+    background: rgb(63,98,251);
+    background: radial-gradient(circle, rgba(63,98,251,0.1741946778711485) 30%, rgba(144,68,80,1) 79%);
+}
+
+.header{
+    position:absolute;
+    width: 100%;
+    top:12vh;
+    text-align: center;
+    font-size: xxx-large;
+    font-weight: bolder;
+
+
+}
+

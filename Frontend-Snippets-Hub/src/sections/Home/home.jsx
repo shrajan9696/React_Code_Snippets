@@ -1,5 +1,5 @@
 import React from 'react';
-import {Card, Grid} from "@mui/material";
+import {Box, Card, Grid} from "@mui/material";
 import Password from "../password/password.jsx";
 import ProgressBar from "../progress-bar/progress.jsx";
 import Pagination from "../pagination/pagination.jsx";
@@ -7,9 +7,14 @@ import Tabs from "../tabs/tabs.jsx";
 import Accordion from "../Accordion/accordion.jsx";
 import StarRating from "../StarRating/rating.jsx";
 import OTP from "../OTP/otp.jsx";
+import Front from "./Front.jsx";
 
 function HomeSection() {
-    return (<Card>
+    return (
+        <>
+            <Front/>
+        <Card>
+
             <Grid container spacing={4} sx={{p:3}}>
 
                 <Grid item xs={12} md={4} spacing={2}>
@@ -44,7 +49,8 @@ function HomeSection() {
 
 
             </Grid>
-        </Card>);
+        </Card>
+        </>);
 }
 
 export default HomeSection;

@@ -53,13 +53,13 @@ function OTPMain(props) {
                                     onChange={(e) => changeHandler(e, index)}
                                     maxLength={1}
                                     onKeyDown={(e) => handleKeyDown(e, index)}
-                                    className={`${empty[index] === false ? classes.miss : null} otp`}
+                                    className={ `${empty[index] === false ? classes.miss : null} ${classes.otp} `}
                                 />
 
                             );
                         })}
                     </div>
-                    <button onClick={submitHandler} className={classes.sub-butt}>Submit</button>
+                    <button onClick={submitHandler} className={classes.subbutt}>Submit</button>
                 </div>
             </CardContent>
         </Card>
