@@ -8,6 +8,7 @@ import Accordion from "../Accordion/accordion.jsx";
 import StarRating from "../StarRating/rating.jsx";
 import OTP from "../OTP/otp.jsx";
 import Front from "./Front.jsx";
+import Tree from "../TreeFolder/tree.jsx";
 
 function HomeSection() {
     return (
@@ -45,6 +46,10 @@ function HomeSection() {
 
                 <Grid item xs={12} md={4} spacing={2}>
                     <OTP/>
+                </Grid>
+
+                <Grid item xs={12} md={4} spacing={2}>
+                    <Tree/>
                 </Grid>
 
 

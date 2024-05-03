@@ -7,6 +7,7 @@ import TabsMain from "./sections/tabs/tabs-main.jsx";
 import AccordionMain from "./sections/Accordion/accordion-main.jsx";
 import RatingMain from "./sections/StarRating/rating-main.jsx";
 import OTPMain from "./sections/OTP/otp-main.jsx";
+import TreeMain from "./sections/TreeFolder/tree-main.jsx";
 
 function App() {
     return (
@@ -20,6 +21,7 @@ function App() {
            <Route path="/accordion" element={<AccordionMain/>}/>
            <Route path="/rating" element={<RatingMain/>}/>
            <Route path="/otp" element={<OTPMain/>}/>
+           <Route path="/tree" element={<TreeMain/>}/>
        </Routes>
    </BrowserRouter>
   )
