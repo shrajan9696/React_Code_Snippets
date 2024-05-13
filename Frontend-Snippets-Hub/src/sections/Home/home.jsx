@@ -7,13 +7,13 @@ import Tabs from "../tabs/tabs.jsx";
 import Accordion from "../Accordion/accordion.jsx";
 import StarRating from "../StarRating/rating.jsx";
 import OTP from "../OTP/otp.jsx";
-import Front from "./Front.jsx";
 import Tree from "../TreeFolder/tree.jsx";
+import ProductFilter from "../ProductFilter/product-filter.jsx";
 
 function HomeSection() {
     return (
         <>
-            <Front/>
+            {/*<Front/>*/}
         <Card>
 
             <Grid container spacing={4} sx={{p:3}}>
@@ -52,6 +52,9 @@ function HomeSection() {
                     <Tree/>
                 </Grid>
 
+                <Grid item xs={12} md={4} spacing={2}>
+                    <ProductFilter/>
+                </Grid>
 
             </Grid>
         </Card>

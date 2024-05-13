@@ -8,6 +8,7 @@ import AccordionMain from "./sections/Accordion/accordion-main.jsx";
 import RatingMain from "./sections/StarRating/rating-main.jsx";
 import OTPMain from "./sections/OTP/otp-main.jsx";
 import TreeMain from "./sections/TreeFolder/tree-main.jsx";
+import ProductFilterMain from "./sections/ProductFilter/product-filter-main.jsx";
 
 function App() {
     return (
@@ -22,6 +23,7 @@ function App() {
            <Route path="/rating" element={<RatingMain/>}/>
            <Route path="/otp" element={<OTPMain/>}/>
            <Route path="/tree" element={<TreeMain/>}/>
+           <Route path = "/productfilter" element = {<ProductFilterMain/>}/>
        </Routes>
    </BrowserRouter>
   )
