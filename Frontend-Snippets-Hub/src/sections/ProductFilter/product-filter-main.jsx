@@ -1,5 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import {items} from "./item.js";
+import classes from "./product.module.css";
+import {Card, CardContent, CardHeader, Stack} from "@mui/material";
 
 function ProductFilterMain(props) {
     const filters = ["Bags","Watches","Sports","Sunglasses"];
@@ -34,17 +36,30 @@ function ProductFilterMain(props) {
     console.log(activeFilters);
 
     return (
+        <Stack spacing={3} sx={{p: 4}}>
+            <Card>
+                <CardHeader title="solution"/>
+                <CardContent>
         <div>
+            <div className={classes.filterbuttonsdiv}>
             {filters.map((ele)=>(
-                <button value={ele} onClick={handleClick}>{ele}</button>
+
+                <button value={ele} onClick={handleClick} className={`${classes.filterButtons} ${activeFilters.includes(ele)?classes.productSelected:null}`}>{ele}</button>
+
             ))}
+            </div>
+            <div className={classes.productList}>
             {filteredData.map((ele)=>(
-                <div>
+                <div className={classes.productCard}>
                   <h3>{ele.name}</h3>
                     <p>{ele.category}</p>
                 </div>
                 ))}
+            </div>
         </div>
+                </CardContent>
+            </Card>
+        </Stack>
     );
 }
 

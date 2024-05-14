@@ -1,9 +1,9 @@
 import React from 'react';
 import CardComponent from "../../components/Card/card.jsx";
-import pass from "../../assets/password.png"
+import productFilter from "../../assets/productFilter.jpeg"
 function ProductFilter() {
     return (
-        <CardComponent title="Product Filter List" image={pass} content="this is password Card" link="/productfilter"/>
+        <CardComponent title="Product Filter List" image={productFilter} content="this is password Card" link="/productfilter"/>
     );
 }
 
