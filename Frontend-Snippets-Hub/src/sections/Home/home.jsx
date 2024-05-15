@@ -11,48 +11,49 @@ import Tree from "../TreeFolder/tree.jsx";
 import ProductFilter from "../ProductFilter/product-filter.jsx";
 
 function HomeSection() {
+
     return (
         <>
             {/*<Front/>*/}
-        <Card>
+        <Card sx={{backgroundColor:"orange"}}>
 
-            <Grid container spacing={4} sx={{p:3}}>
+            <Grid container spacing={6} sx={{p:5}}>
 
-                <Grid item xs={12} md={4} spacing={2}>
+                <Grid item xs={12} md={6} spacing={2}>
                     <Password/>
                 </Grid>
 
-                <Grid item xs={12} md={4} spacing={2}>
+                <Grid item xs={12} md={6} spacing={2}>
                     <ProgressBar/>
                 </Grid>
 
 
-                <Grid item xs={12} md={4} spacing={2}>
+                <Grid item xs={12} md={6} spacing={2}>
                     <Pagination/>
                 </Grid>
 
-                <Grid item xs={12} md={4} spacing={2}>
+                <Grid item xs={12} md={6} spacing={2}>
                     <Tabs/>
                 </Grid>
 
-                <Grid item xs={12} md={4} spacing={2}>
+                <Grid item xs={12} md={6} spacing={2}>
                     <Accordion/>
                 </Grid>
 
-                <Grid item xs={12} md={4} spacing={2}>
+                <Grid item xs={12} md={6} spacing={2}>
                     <StarRating/>
                 </Grid>
 
 
-                <Grid item xs={12} md={4} spacing={2}>
+                <Grid item xs={12} md={6} spacing={2}>
                     <OTP/>
                 </Grid>
 
-                <Grid item xs={12} md={4} spacing={2}>
+                <Grid item xs={12} md={6} spacing={2}>
                     <Tree/>
                 </Grid>
 
-                <Grid item xs={12} md={4} spacing={2}>
+                <Grid item xs={12} md={6} spacing={2}>
                     <ProductFilter/>
                 </Grid>
 
