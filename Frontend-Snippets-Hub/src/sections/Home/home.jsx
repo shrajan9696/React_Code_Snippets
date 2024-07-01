@@ -9,6 +9,7 @@ import StarRating from "../StarRating/rating.jsx";
 import OTP from "../OTP/otp.jsx";
 import Tree from "../TreeFolder/tree.jsx";
 import ProductFilter from "../ProductFilter/product-filter.jsx";
+import Transfer from "../TransferList/transfer.jsx";
 
 function HomeSection() {
 
@@ -55,6 +56,10 @@ function HomeSection() {
 
                 <Grid item xs={12} md={6} spacing={2}>
                     <ProductFilter/>
+                </Grid>
+
+                <Grid item xs={12} md={6} spacing={2}>
+                    <Transfer/>
                 </Grid>
 
             </Grid>

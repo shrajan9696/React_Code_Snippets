@@ -10,6 +10,7 @@ import OTPMain from "./sections/OTP/otp-main.jsx";
 import TreeMain from "./sections/TreeFolder/tree-main.jsx";
 import ProductFilterMain from "./sections/ProductFilter/product-filter-main.jsx";
 import AnimatedCursor from "react-animated-cursor"
+import TransferMain from "./sections/TransferList/transfer-main.jsx";
 
 function App() {
     return (
@@ -40,6 +41,7 @@ function App() {
            <Route path="/otp" element={<OTPMain/>}/>
            <Route path="/tree" element={<TreeMain/>}/>
            <Route path = "/productfilter" element = {<ProductFilterMain/>}/>
+           <Route path="/transfer" element={<TransferMain/>}/>
        </Routes>
    </BrowserRouter>
         </>
