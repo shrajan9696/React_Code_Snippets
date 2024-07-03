@@ -76,20 +76,20 @@ function TransferMain(props) {
             <CardHeader title="solution"/>
             <CardContent>
                 <div className={`transfer-main`}>
-                    <div>
+                    <div className={`transfer-box`}>
                         {leftData.map(ele => (<div onClick={() => clickHandler(ele.id, ele.checked, "left")}
-                                                   className={`${ele.checked ? "transfer-checked" : null}`}
+                                                   className={`${ele.checked ? "transfer-checked" : null} transfer-list`}
                         >
                             {ele.title}
                         </div>))}
                     </div>
                     <div>
-                        <button onClick={() => buttonClickHandler("left")}>Left to Right</button>
-                        <button onClick={() => buttonClickHandler("right")}>Right to Left</button>
+                        <button onClick={() => buttonClickHandler("left")}  className={`transfer-button`}>Left to Right</button>
+                        <button onClick={() => buttonClickHandler("right")}  className={`transfer-button`}>Right to Left</button>
                     </div>
-                    <div>
+                    <div className={`transfer-box`}>
                         {rightData.map(ele => (<div
-                            className={`${ele.checked ? "transfer-checked" : null}`}
+                            className={`${ele.checked ? "transfer-checked" : null} transfer-list`}
                             onClick={() => clickHandler(ele.id, ele.checked, "right")}
                         >{ele.title}</div>))}
                     </div>

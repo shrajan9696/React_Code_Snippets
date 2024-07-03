@@ -1,12 +1,28 @@
 .transfer-main{
     display: flex;
+    align-items: center;
 }
 .transfer-checked{
-    background-color: #535bf2;
-}
-.transfer-box{
-
+    background-color: #ff0000;
 }
 .transfer-button{
-
+    font-size: x-large;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #91b3e7;
 }
+.transfer-box{
+    border: 2px solid #da6767;
+    background-color: #e89ea9;
+    padding: 30px;
+    border-radius: 10px;
+}
+.transfer-list{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+button:hover{
+    background-color: #5e6bda;
+}
+
