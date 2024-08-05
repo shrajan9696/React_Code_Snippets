@@ -3,7 +3,7 @@
     align-items: center;
 }
 .transfer-checked{
-    background-color: #ff0000;
+    background-color: #f56262;
 }
 .transfer-button{
     font-size: x-large;
@@ -24,5 +24,8 @@
 }
 button:hover{
     background-color: #5e6bda;
+}
+.transfer-list:hover{
+    background-color: #f56262;
 }
 
